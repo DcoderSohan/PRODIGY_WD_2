@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="e-card playing">
+      <div class="image"></div>
+
+      <div class="wave"></div>
+      <div class="wave"></div>
+      <div class="wave"></div>
+
+      
+      <div class="stopwatch">
+        <div id="display">00:00:00:000</div>
+        <div class="controls">
+          <button id="startStopBtn">Start</button>
+          <button id="lapBtn">Lap</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <div id="laps">
+          <h3>Laps</h3>
+          <div class="lapContainer">
+            <ul id="lapList"></ul>
+          </div>
+        </div>
+        <button id="clearLapsBtn">Clear Laps</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
